@@ -1,0 +1,14 @@
+theme: minima
+title: "notes"
+description: ""
+
+minima:
+  skin: classic
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

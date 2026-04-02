@@ -1,0 +1,39 @@
+---
+---
+@import "minima";
+
+// liste des posts
+.post-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin-bottom: 1.6rem;
+  }
+
+  .post-meta {
+    color: #aaa;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+  }
+
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+}
+
+// tags [notebook] [notes]
+.tag {
+  font-size: 0.8rem;
+  color: darkorange;
+  margin-left: 0.4rem;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+// abstract sous le titre
+.post-abstract {
+  font-size: 0.85rem;
+  color: #888;
+  font-style: italic;
+  margin: 0.15rem 0 0 0;
+}
