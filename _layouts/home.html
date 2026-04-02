@@ -5,7 +5,7 @@ layout: default
   {% for post in site.posts %}
   <li>
     <span class="post-meta">{{ post.date | date: "%b %y" }}</span>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.doi }}">{{ post.title }}</a>
     {% if post.notebook %}<a class="tag" href="{{ post.notebook }}">[notebook]</a>{% endif %}
     {% if post.notes %}<a class="tag" href="{{ post.notes }}">[notes]</a>{% endif %}
     {% if post.abstract %}<p class="post-abstract">{{ post.abstract }}</p>{% endif %}
